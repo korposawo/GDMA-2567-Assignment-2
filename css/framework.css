@@ -146,7 +146,7 @@ figure {
 
 @media only screen and (min-width: 1024px) {
 	.wrapper {
-	width: 75%;
+	width: 85%;
 	/*max-width: *can control the width for large displays*/
     }
 	
