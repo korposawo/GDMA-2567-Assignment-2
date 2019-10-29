@@ -66,7 +66,34 @@
 	
 }
 
-/* -- TYPOGRAPHY -- */ 
+/* -- Forms -- */ 
+
+input{
+  width: 30%;
+  padding: .7rem;
+  margin: .5rem;
+  box-sizing: border-box;
+  border:none;
+}
+textarea {
+  background: #f8f8f8;
+  width: 30%;
+  height: 9rem;
+  padding: .7rem;
+  box-sizing: border-box;
+  border: none;
+  margin: .5rem;
+}
+
+
+
+form{
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 
 h1, nav li, h3, h4, h2{
 	
@@ -78,11 +105,9 @@ h2{
 	font-size: 4.5rem;
 	line-height: 4rem;
 }
-.solution p{
-	font-size: 1.5rem;
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 2rem;
-	margin-top: -3rem;
+.solution p {
+  font: 1.5rem/2rem Arial, Helvetica, sans-serif;
+  margin-top: -3rem;
 }
 .button{
 	font-family: Arial, Helvetica, sans-serif;
@@ -102,6 +127,9 @@ h2{
 @media only screen and (min-width: 1024px) {
 	
 }
+
+/* -- TYPOGRAPHY -- */ 
+
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -126,7 +154,8 @@ h2{
 }
 .bg-blue{
 	background: #101731;
-	height: 20em;
+	height: 35em;
+	margin-top: 60rem;
 }
 .bg-img p, h2{
 	color: #FFF;
@@ -174,8 +203,8 @@ h1 a, nav li a{
 }
 
 /* -- Buttons -- */
-.bg-img a{
-  background-color: #fff;
+.bg-img a {
+  background: #fff;
   border: none;
   color: #2c203f;
   padding: 1em 2.1em;
@@ -186,28 +215,17 @@ h1 a, nav li a{
 .bg-img .button{
 	margin-top: 1rem;
 }
-.bg-img a:hover{
-  background-color: #2c203f;
+.bg-img a:hover {
+  background: #2c203f;
   border: none;
   color: #fff;
   padding: 1em 2.1em;
   text-decoration: none;
-  font-size: 1.1rem;
   border-radius: 1em;
 }
 
-#solutions a{
-  background-color: #2c203f;
-  border: none;
-  color: #fff;
-  padding: 1em 2.1em;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 1em;
-}
-
-#solutions a:hover{
-  background-color: #d45e8f;
+#solutions a {
+  background: #2c203f;
   border: none;
   color: #fff;
   padding: 1em 2.1em;
@@ -216,6 +234,15 @@ h1 a, nav li a{
   border-radius: 1em;
 }
 
+#solutions a:hover {
+  background: #d45e8f;
+  border: none;
+  color: #fff;
+  padding: 1em 2.1em;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 1em;
+}
 .button{
 	margin-top: 3.1rem;
 }
@@ -234,7 +261,7 @@ h1 a, nav li a{
 }
 
 .col-3, .col-3 h3{
-	margin-left: 12rem;
+	margin-left: 14rem;
 }
 
 .col-3 h3{
